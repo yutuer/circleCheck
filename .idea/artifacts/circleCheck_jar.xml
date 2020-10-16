@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="circleCheck:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/circleCheck_jar</output-path>
+    <root id="root">
+      <element id="archive" name="circleCheck.jar">
+        <element id="module-output" name="circleCheck" />
+      </element>
+      <element id="library" level="module" name="Maven: com.game2sky:hebiao:1.0" module-name="circleCheck" />
+      <element id="library" level="project" name="Maven: com.jcraft:jsch.agentproxy.core:0.0.7" />
+      <element id="library" level="project" name="Maven: de.regnis.q.sequence:sequence-library:1.0.4" />
+      <element id="library" level="project" name="Maven: org.lz4:lz4-java:1.4.1" />
+      <element id="library" level="project" name="Maven: com.jcraft:jsch.agentproxy.pageant:0.0.7" />
+      <element id="library" level="project" name="Maven: com.jcraft:jsch.agentproxy.usocket-nc:0.0.7" />
+      <element id="library" level="project" name="Maven: net.java.dev.jna:jna:4.1.0" />
+      <element id="library" level="project" name="Maven: com.jcraft:jsch.agentproxy.usocket-jna:0.0.7" />
+      <element id="library" level="project" name="Maven: org.tmatesoft.svnkit:svnkit:1.10.1" />
+      <element id="library" level="project" name="Maven: com.jcraft:jsch.agentproxy.sshagent:0.0.7" />
+      <element id="library" level="module" name="Maven: com.game2sky:excel-game-check:1.0" module-name="circleCheck" />
+      <element id="library" level="project" name="Maven: org.tmatesoft.sqljet:sqljet:1.1.12" />
+      <element id="library" level="project" name="Maven: com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:0.0.7" />
+      <element id="library" level="project" name="Maven: net.java.dev.jna:platform:3.4.0" />
+      <element id="library" level="project" name="Maven: com.trilead:trilead-ssh2:1.0.0-build222" />
+      <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.4" />
+      <element id="library" level="project" name="Maven: net.java.dev.jna:jna-platform:4.1.0" />
+      <element id="library" level="project" name="Maven: com.jcraft:jsch.agentproxy.connector-factory:0.0.7" />
+    </root>
+  </artifact>
+</component>

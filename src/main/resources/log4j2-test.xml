@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" monitorInterval="1">
+
+    <Appenders>
+        <!-- 公共库部分 -->
+
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">d
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level (%F\:%L) - %msg%n"/>
+            <!--日志信息中含有c3p0单词将会通过过滤 -->
+            <RegexFilter regex=".*mchange.v2.*" onMatch="DENY" onMismatch="ACCEPT"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info" additivity="true" includeLocation="true">
+            <AppenderRef ref="Console" />
+        </Root>
+    </Loggers>
+
+</Configuration>
